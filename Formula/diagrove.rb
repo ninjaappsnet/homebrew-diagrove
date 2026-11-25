@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
 # Homebrew formula for the diagrove command-line tool (D391, D403, D1374). tools/release-cli.sh fills in
-# 1.1.0, https://github.com/ninjaappsnet/homebrew-diagrove/releases/download/v1.1.0/diagrove-1.1.0-macos.zip, caaefd0ca8b76349e8a1f85c04fad7e5003a0c6d7a3e17fb6b38ee52bd165095 and https://ninjaapps.net/apps/diagrove/ and writes it as Formula/diagrove.rb in the tap,
+# 1.1.1, https://github.com/ninjaappsnet/homebrew-diagrove/releases/download/v1.1.1/diagrove-1.1.1-macos.zip, ef6235a4a3dac73c72ee8f70935eed65e8d2f0d91c5c5417c23ae48da87738d5 and https://ninjaapps.net/apps/diagrove/ and writes it as Formula/diagrove.rb in the tap,
 # github.com/ninjaappsnet/homebrew-diagrove (docs/specs/cli-release.md).
 class Diagrove < Formula
   desc "Command-line tool to make, change and draw Diagrove diagrams"
   homepage "https://ninjaapps.net/apps/diagrove/"
-  url "https://github.com/ninjaappsnet/homebrew-diagrove/releases/download/v1.1.0/diagrove-1.1.0-macos.zip"
-  version "1.1.0"
-  sha256 "caaefd0ca8b76349e8a1f85c04fad7e5003a0c6d7a3e17fb6b38ee52bd165095"
+  url "https://github.com/ninjaappsnet/homebrew-diagrove/releases/download/v1.1.1/diagrove-1.1.1-macos.zip"
+  version "1.1.1"
+  sha256 "ef6235a4a3dac73c72ee8f70935eed65e8d2f0d91c5c5417c23ae48da87738d5"
 
   livecheck do
     url :url
